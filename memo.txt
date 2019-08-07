@@ -1,0 +1,34 @@
+Lecture1
+- ビルドツール
+  - Grunt
+  - Gulp
+  - Webpack
+
+- テンプレートエンジン
+  - JSX
+  - Pug(Jade)
+
+- パッケージマネージャ
+  - npm
+  - yarn
+
+Lecture7
+- npmやyarnはpackage.jsonに必要なパッケージを記述して、そこからインストールする。
+- package json の初期設定が `yarn init`
+- 必要なパッケージがある場合は、 `yarn add` コマンドでpackage.jsonに記述してくれるのと同時に、
+　インストールする。
+- `yarn init` した後に、実行すべきコマンドとしては、`yarn add webpack webpack-dev-server babel-core babel-loader babel-preset-r
+eact babel-preset-es2015`である。
+- `package.json`ファイルを見てわかるように、package: "メジャーバージョン.マイナーバージョン.パッチバージョン"となっている。
+　また、メジャーバージョンの前に付いている `^`は指定したメジャーバージョンの中で最新のものをインストールする。
+　また、以上のようなインストールのされ方だと、package.jsonを共有してもインストールするタイミングなどで、バージョンが変わってしまうというアクシデントが
+　発生するので、 `yarn.lock`というファイルにパッチまでの細かなバージョンまでが記載されることで、環境によるバージョンの差異を無くしている。
+
+- 実際のライブラリ自体は `node_modules`に格納されている。
+
+Lecture9
+- 何が起きているのか
+  1. webpack-dev-server でローカルにWebサーバを立ち上げる。
+  2. publicのindex.htmlがロードされる。
+  3. `/`配下の`bundle.js`にアクセスがあったら、`./src/index.js`をコンパイルした成果物を返す。
+  4.
