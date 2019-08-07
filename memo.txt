@@ -36,3 +36,8 @@ Lecture13
 - `webpack.config.js` ファイルに記載されている `loaders`のままにするとエラーになる。
   `rules`に置き換えてやる必要がある。
 - パッケージマネージャをnpmを使う場合は、npm install ~~ で大丈夫だったが、yarnを使う場合は、yarn add ~~ にする必要がある。
+
+Lecture15
+- ReactとReactDOMパッケージ
+  - React・・Webとモバイル
+  - ReactDOM・・Webに特化
