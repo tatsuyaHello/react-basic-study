@@ -41,3 +41,13 @@ Lecture15
 - ReactとReactDOMパッケージ
   - React・・Webとモバイル
   - ReactDOM・・Webに特化
+
+Lecture16
+- Component作成方法
+  1. Functional Component
+  2. Class Component
+
+- render関数しかないステートレスな関数の場合はFunctional Componentで作成する必要がある。
+
+Lecture17
+- Reactではいかに再利用性の高いコンポーネントを書くかが、保守性の高いコンポーネントを作る上で重要になってくる。

@@ -17,8 +17,9 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "import-glob-loader": "^1.1.0",
     "node-sass": "^4.12.0",
-    "react": "15.6.1",
-    "react-dom": "15.6.1",
+    "prop-types": "^15.7.2",
+    "react": "15",
+    "react-dom": "15",
     "sass-loader": "^7.1.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.39.1",
@@ -26,10 +27,10 @@
     "webpack-dev-server": "^3.7.2"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.14.0"
   }
 }
